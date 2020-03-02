@@ -1,0 +1,37 @@
+/*  Botão avançar */
+
+.icon-next::after {
+    content: '\2192';
+    font-family: 'IconicFill';
+    margin-left: 10px;
+}
+
+
+/* Ir para a próxima página */
+
+h1.icon-next {
+    color: blue;
+}
+
+
+/* E-mail e Atenção */
+
+.icon-ok {
+    color: #489D00;
+}
+
+.icon-ok::before {
+    content: "\2714";
+    font-family: 'IconicFill';
+    margin-right: 10px;
+}
+
+.icon-invalid {
+    color: #990000;
+}
+
+.icon-invalid::before {
+    content: "\2718";
+    font-family: 'IconicFill';
+    margin-right: 10px;
+}
