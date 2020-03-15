@@ -1,0 +1,115 @@
+.status {
+    color: white;
+    display: inline-block;
+    font-weight: bold;
+    font-weight: bold;
+    padding: 7px 10px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+}
+
+.failed {
+    background-color: #BD2C00;
+}
+
+.shipped {
+    background-color: #6CC644;
+}
+
+.processing {
+    background-color: #FC9800;
+}
+
+h1 {
+    color: #BD2C00;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+.available {
+    background-color: #6CC644;
+    border-radius: 3px;
+    color: white;
+    font-size: 0.8em;
+    font-weight: bold;
+    padding: 3px 7px;
+    text-shadow: 0 1px 2 px rgba(0, 0, 0, 0.7);
+}
+
+ul {
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    background-color: #56B4EF;
+    background-image: linear-gradient(top, #56B4EF, #148EDA);
+    float: left;
+    list-style: none;
+    margin: 10px 10px 0 0;
+    padding: 0;
+    width: 230px;
+}
+
+.icon:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+@font-face {
+    font-family: 'IconicFill';
+    src: url('iconic_fill.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.icon::before {
+    font-family: 'IconicFill';
+    margin: 0px 5px;
+}
+
+.paper:before {
+    content: "\e00b";
+}
+
+.digital:before {
+    content: "\e044";
+}
+
+.package:before {
+    content: "\e022";
+}
+
+.icon {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    color: #FFF;
+    display: block;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 5px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.9);
+}
+
+.icon.paper {
+    border-top: none;
+}
+
+.icon.package {
+    border-bottom: none;
+}
+
+.book {
+    background-color: #FAFAFA;
+    background-image: linear-gradient(#FAFAFA, #EEE);
+    border-radius: 5px;
+    border: 1px solid #CCC;
+    padding: 10px;
+    width: 490px;
+}
+
+.clear {
+    clear: both;
+}
