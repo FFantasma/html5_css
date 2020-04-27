@@ -1,0 +1,51 @@
+.posts {
+  float: left;
+  width: 700px;
+}
+
+aside {
+  background-color: #FFFBE4;
+  border: 1px solid #C9BC8F;
+  float: left;
+  padding: 10px;
+  width: 200px;
+}
+
+aside h3 {
+  margin: 0;
+}
+
+.timestamp {
+  background-color: #000;
+  color: #FFF;
+  float: right;
+  font-size: 0.9em;
+  margin-top: 10px;
+  padding: 5px 10px;
+}
+
+.page {
+  background-color: #e8e8e8;
+  padding: 10px;
+  margin: 0 auto;
+  width: 940px;
+}
+
+p {
+  clear: both;
+}
+
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
